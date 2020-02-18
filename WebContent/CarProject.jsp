@@ -3984,7 +3984,7 @@ have their cars tuned up. A location worth investing in!</p><p>Value: 2/5 Cost: 
 <h3>Tupper Lake</h3>
 <img src = "images/Tupper_Lake.jpg" alt = "Tupper Lake" style = "width: 23vw; height: 13vw; padding-left: 3.5vw;">
 <p>The rolling plains and snow-tipped mountains of the Adriondacks form the backdrop of this ginormous manufacturing site. This building contains
-enough space to manufacture more than 200,000 cars per year. And with prices this cheap and land this beautiful, what more could you possible ask for?</p><p>Value: 5/5 Cost: 5/5 Tax: 3/5 Accesibility: 2/5</p><p>Overall: 5/5</p>
+enough space to manufacture more than 200,000 cars per year. And with prices this cheap and land this beautiful, what more could you possibly ask for?</p><p>Value: 5/5 Cost: 5/5 Tax: 3/5 Accesibility: 2/5</p><p>Overall: 5/5</p>
 <p class = "Company_Status"></p>
 <div class = "transactionButton"></div>
 <div onclick = "cancel('Tupper_Lake')" class = "cancelButton">Cancel</div>
