@@ -1504,7 +1504,7 @@ function databaseLoad(myArray)
 		document.getElementsByClassName('mainWindow')[0].style.display = 'inline';
 	}
 	
-	//checkLevel determines whether or not the user shoudl be able to advance to the next level. nextlevel() is called if the user
+	//checkLevel determines whether or not the user should be able to advance to the next level. nextlevel() is called if the user
 	//meets the criteria to advance to the next level.
 	function checkLevel()
 	{
@@ -1524,9 +1524,9 @@ function databaseLoad(myArray)
 				}	
 			}
 			
-			//if the company owns all businesses in Wetshcetser or owns 60 % or more of all businsses (in terms of purchase price) after a year
-			//or more of in-game time has passed, then the player can advance to the next level (the New York level)
-			if(allCompanyCounter - myCompanyCounter == 0 || (((myCompanyCounter * 1.0)/allCompanyCounter >= 0.60)))
+			//if the company owns 65 % or more of all businsses (in terms of purchase price) in Westchester, then they 
+			//can advance to level 2
+			if((myCompanyCounter * 1.0)/allCompanyCounter >= 0.65)
 				{
 				nextLevel();
 				level_1_timestamp = (years * 365) + (months * 30) + day_num;
@@ -1558,7 +1558,9 @@ function databaseLoad(myArray)
 					}
 				
 				}
-		if(allCompanyCounter - myCompanyCounter == 0 || (((myCompanyCounter * 1.0)/allCompanyCounter >= 0.65)))
+			
+		//if the player owns 70% or more of businesses in the greater New York area, then they can advance to level 3
+		if((myCompanyCounter * 1.0)/allCompanyCounter >= 0.70)
 			{
 			nextLevel();
 			level_2_timestamp = (years * 365) + (months * 30) + day_num;
@@ -1588,7 +1590,9 @@ function databaseLoad(myArray)
 				}
 			
 			}
-	if(allCompanyCounter - myCompanyCounter == 0 || (((myCompanyCounter * 1.0)/allCompanyCounter >= 0.65)))
+		
+		//if the player owns 75% or more of businesses at the federal level, then they have won the game
+	if((myCompanyCounter * 1.0)/allCompanyCounter >= 0.75)
 		{
 		UpdateClock = false;
 		document.getElementsByClassName("FederalWindow")[0].style.display = "none";
