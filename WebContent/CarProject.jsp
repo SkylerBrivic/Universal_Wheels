@@ -1993,7 +1993,7 @@ text-align: center; font-size: 1vw; font-family: Arial; margin-left: 25%; margin
 .databaseButton:hover{background-color: orange;}
 .databaseWindow{display: none; position: absolute; margin-left: 13%; width: 75vw; height: 50vw; overflow-y: scroll; background-color: lightYellow; border: 0.61vw solid blue;}
 .PriorityWindow{display: none; position: absolute; margin-left: 13%; width: 75vw; height: 50vw; overflow-y: scroll; background-color: lightYellow; border: 0.61vw solid blue;}
-.databaseTable{margin-left: 1vw; margin-top: 8vw; width: 73vw; position: relative; height: 48vw; overflow-y: scroll; background-color: white;}
+.databaseTable{margin-left: 1vw; margin-top: 4vw; width: 73vw; position: relative; height: 48vw; overflow-y: scroll; background-color: white;}
 .RulesWindow{position: absolute; display: none; margin-left: 13%; width: 75vw; height: 50vw; background-color: LightYellow; border: 0.61vw solid blue;}
 .blue{position:absolute; background-color: LightSkyBlue; width: 70vw; height: 40vw; margin-left: 1vw; margin-top: 5vw; color: Maroon; padding-left: 1vw; padding-right: 1vw;}
 .mainMenuLinks:hover{background-color: red;}
@@ -3025,7 +3025,7 @@ Wednesday night. For your challenge, you need to design a full-sized car that ca
 will drive up a ramp and jump over a canyon. For it's last stunt, the car will drive up a final ramp and go through a flaming hoop before coming to a stop in front of the judges. The car that peforms the challenge the fastest
 (without being destroyed) will be declared the winner of the "Iron Car Award." How would you like to approach this challenge?</p>
 <p>A. Design a big car capable of withstanding big impacts (-$60,000)</p>
-<p>B. Design a small car capable of making big jumps ($60,000)</p>
+<p>B. Design a small car capable of making big jumps (-$60,000)</p>
 <div class = "rectangleButton" onclick = "decisionPost(20, 'A')">Build the Big Car</div>
 <div class = "rectangleButton" onclick = "decisionPost(20, 'B')">Build the Small Car</div>
 </div>
@@ -3193,8 +3193,8 @@ who have more cars available leap frog over you in sales this quarter. Curse you
 <p>After much effort, your company's marketing team was finally able to negotiate a deal with Dallas Cowboys owner Jerry Jones to launch a series of TV ads saying that Universal Wheels
 is the "official vehicle of the Dallas Cowboys." This ad will begin airing during NFL games, starting with next Sunday's intense showdown between the Philadelphia Eagles and the Cowboys,
 which in all liklihood will determine who wins the NFC East. Would you like to sign the contract?</p>
-<p>A: Choice A: Sign the Contract ($-400,000)</p>
-<p>B. Choice B. Don't Sign the Contract (-$0)</p>
+<p>A. Sign the Contract (-$400,000)</p>
+<p>B. Don't Sign the Contract (-$0)</p>
 <div class = "rectangleButton" onclick = "decisionPost(24, 'A')">Sign the Contract</div>
 <div class = "rectangleButton" style = "float: right;" onclick = "decisionPost(24, 'B')">Don't Sign the Contract</div>
 </div> 
