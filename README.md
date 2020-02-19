@@ -18,11 +18,11 @@ The player needs to own 65% of all businesses (by purchase price) in Westchester
 
 ## High Scores:
 
-Once a player beats the game, they have the option to enter their name into the high score leaderboards. The name a player puts down for a high score must be unique. Additionally, when a player enters in a high score, they also enter in a password, so that if they set a later high score they can enter in the name they originally used to update their record. There are 2 high score leaderboards: one keeps track of most money held by a player at the end of the game, and the other keeps track of fastest completion of the game by a player (in terms of in-game days). All of this information would be stored in a MySQL database, if this game had a website with server space.
+Once a player beats the game, they have the option to enter their name into the high score leaderboards. The name a player puts down for a high score must be unique. Additionally, when a player enters in a high score, they also enter in a password, so that if they set a later high score, they can enter in the name they originally used to update their record. There are 2 high score leaderboards: one keeps track of most money held by a player at the end of the game, and the other keeps track of fastest completion of the game by a player (in terms of in-game days). All of this information would be stored in a MySQL database, if this game had a website with server space.
 
 ## Project Structure:
 
-The WebContent folder contains the file with all of the HTML, CSS and JavaScript code for the game, which is carProject.jsp
+The WebContent folder contains the file with all of the HTML, CSS and JavaScript code for the game, which is carProject.jsp.
 Additionally, WebContent contains a folder called images which stores all of the images used by the game.
 
 The src folder contains the packages which contain all of the servlets and Java classes that are used for the backend of the game.
@@ -31,4 +31,4 @@ The screenshots folder contains a list of screenshorts from the game which shows
 
 ### Dependencies:
 
-The MySQL connector jar (5.1.47) and gson jar (2.6.2) need to be in the classpath and build path for this project in order to build and run this project.
+The MySQL connector jar (5.1.47) and gson jar (2.6.2) need to be in the classpath and build path for this project in order to for the to build and run the project.
