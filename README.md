@@ -27,7 +27,7 @@ Additionally, WebContent contains a folder called images which stores all of the
 
 The src folder contains the packages which contain all of the servlets and Java classes that are used for the backend of the game.
 
-The screenshots folder contains a list of screenshorts from the game which shows a series of snapshots of a sample playthrough of the game from start to finish in order (the first one listed is the earliest in the game). 
+The screenshots folder contains a list of screenshots from the game which shows a series of snapshots of a sample playthrough of the game from start to finish in order (the first one listed is the earliest in the game). 
 
 ### Dependencies:
 
