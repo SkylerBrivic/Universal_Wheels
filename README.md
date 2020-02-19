@@ -31,4 +31,4 @@ The screenshots folder contains a list of screenshots from the game which shows 
 
 ### Dependencies:
 
-The MySQL connector jar (5.1.47) and gson jar (2.6.2) need to be in the classpath and build path for this project in order to for the to build and run the project.
+The MySQL connector jar (5.1.47) and gson jar (2.6.2) need to be in the classpath and build path for this project in order to build and run the project.
