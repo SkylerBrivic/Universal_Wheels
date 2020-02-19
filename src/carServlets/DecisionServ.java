@@ -708,7 +708,7 @@ public class DecisionServ extends HttpServlet {
 		case 12:
 			//The initial probability of building the buses being a good idea is 50%. If Universal Wheels owns Albany,
 			//then the probability of building the buses being a good idea goes up by 20 %. Else the probability that building
-			//the buses is a good idea drops by 20 %. Also, if 50% or more of the total value of Universal Wheel's business locations if in factories,
+			//the buses is a good idea drops by 20 %. Also, if 50% or more of the total value of Universal Wheel's business locations is in factories,
 			//then the probability that building the buses is a good idea goes up by 20%. Else, the probability that building the buses is a good idea
 			//goes down by 20%.
 			
