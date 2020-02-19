@@ -307,6 +307,7 @@ var decisionsHappened =  [];
 	 for(var i = 0; i < 30; ++i)
 		 decisionsHappened.push(false);
 	 document.getElementsByClassName("mainWindow")[0].style.display = "none";
+	
 	 UpdateClock = true;
 	 inDescription = false;
 	  document.getElementsByClassName("WestchesterWindow")[0].style.display = "inline";
@@ -2167,7 +2168,7 @@ height: 2.5vw; font-size: 1.52vw; background-color: red; margin-right: 1.82vw; t
   <!-- Level1Won is a container which displays text to the user when they beat level 1 -->
   <div class = "Level1Won">
   <p>Congratulations! You have become the most powerful car company in Westchester County! In fact, you have become so powerful that you can now expand outside of Westchester County and
-  purchase locations Outside of Westchester. It's a big world out there, but I'm sure you can handle it. Just follow your instincts, make good decisions, and never give up. Good luck!</p>
+  purchase locations outside of Westchester. It's a big world out there, but I'm sure you can handle it. Just follow your instincts, make good decisions, and never give up. Good luck!</p>
   <div class = "transactionButton" onclick = "cancelClass('Level1Won')" style = "margin-left: 10vw;">I'm Ready!</div>
   </div>
   
@@ -2233,7 +2234,7 @@ the next few weeks, but if you can ride out this storm, you'll have become all t
 <div id = "Choice_2" class = "decisiontext">
 <h3>Deal or no Deal</h3>
 <p>As you walk out of company headquarters late at night, you are approached by Anthony Romano. Romano says that he runs
-a loccal "business," and would like to start encouraging his workers to buy your cars. However, he can only make this work
+a local "business," and would like to start encouraging his workers to buy your cars. However, he can only make this work
 if you agree to sell your cars to his men at a reduced rate. Romano is the leader of the local Mafia, and is in charge of at least 1,000
  people throughout Northern Westchester. What would you like to do?</p>
  <p>A: Give Romano and his men a discount (-$15,000)</p>
@@ -2265,7 +2266,7 @@ yourself into?!?!?!?</p>
 <div id = "Choice_2B_Success" class = "decisiontext">
 <h3>Temptation Resisted</h3>
 <p>You have no intention of getting mixed up in the criminal underworld. "Sorry Mr. Romano," you begin, "but I just don't feel comfortable making that
-kind of deal at this moment." Romano smiles gingerly in dissapointment. "Ah well. That's alright. Call me if you ever change your mind." Romano
+kind of deal at this moment." Romano smiles gingerly in disappointment. "Ah well. That's alright. Call me if you ever change your mind." Romano
 proceeds to hand you his business card. The next day, Romano is arrested on charges of extortion, blackmail, and conspiracy to commit fraud for his
 many questionable "business" ventures. Every penny of cash given to Romano or paid by Romano is scrutinized by the police. However, since you never
 made a deal with Romano, you have nothing to worry about. What a lucky break!</p>
@@ -2701,7 +2702,7 @@ and can withstand being crashed into without the occupants of the vehicle being 
 
 <div id = "Choice_12A_Success" class = "decisiontext">
 <h3>Break on Through</h3>
-<p>Your school buses have been the remedy that the city of Albany has been looking for to cure its schools bus maladies. Able to easily climb up snowy hills and with powerful brakes
+<p>Your school buses have been the remedy that the city of Albany has been looking for to cure its school bus maladies. Able to easily climb up snowy hills and with powerful brakes
 able to maintain traction with even the iciest roads, you've really come through for the children of Albany. Expect a lot more people in the area to take notice of your company's powerful,
 durable vehicles!</p>
 <div class = "transactionButton" onclick = "cancel('Choice_12A_Success')">Okay</div>
@@ -3192,7 +3193,7 @@ who have more cars available leap frog over you in sales this quarter. Curse you
 <h3>America's Car</h3>
 <p>After much effort, your company's marketing team was finally able to negotiate a deal with Dallas Cowboys owner Jerry Jones to launch a series of TV ads saying that Universal Wheels
 is the "official vehicle of the Dallas Cowboys." This ad will begin airing during NFL games, starting with next Sunday's intense showdown between the Philadelphia Eagles and the Cowboys,
-which in all liklihood will determine who wins the NFC East. Would you like to sign the contract?</p>
+which in all likelihood will determine who wins the NFC East. Would you like to sign the contract?</p>
 <p>A. Sign the Contract (-$400,000)</p>
 <p>B. Don't Sign the Contract (-$0)</p>
 <div class = "rectangleButton" onclick = "decisionPost(24, 'A')">Sign the Contract</div>
@@ -3275,7 +3276,7 @@ will be affected by this negative press. If you can avoid going bankrupt for the
 <h3>Find A Way or Make A Way</h3>
 <p>It's hard to compete against other companies when all of your products cost more than theirs. Universal Wheels has tried to cut costs, but the high costs of manufacturing
 in the states leaves you unable to compete with companies who produce their cars in cheap factories in China. Your least valuable plant is currently costing the company on average $20,000
-per month to keep a float, which has been a persistent drain on your profits. Yesterday, you received an offer from the Eastern Sun Factory Liason Corporation. They have offered to sell
+per month to keep afloat, which has been a persistent drain on your profits. Yesterday, you received an offer from the Eastern Sun Factory Liason Corporation. They have offered to sell
 you a car factory (which is no longer being used by its original owner) in Shaanxi province, China. This leaves you with a viable way to replace your ailing American factory, although
 closing it would also put 5,000 people out of work. What would you like to do?</p>
 <p>A. Stick with America (-$0)</p>
@@ -4458,13 +4459,13 @@ is the perfect location to sell all-wheel drive cars and pickup trucks to the re
 			<!-- HighScoreLoadPage is the window displayed when a user beats the game, which prompts them to enter in a highscore for the highscore database -->
 			<div class = "highScoreLoadPage" style = "padding-left: 1vw; padding-right: 1vw;">
 				<h3 style = "color: Maroon; font-size: 30px;">Congratulations!</h3>
-				<p>You have become the most powerful car company in America! Through your shrewd planning,
+				<p>You have become the most powerful car company in America! Through your shrewd planning
 				and decision making, you have come to dominate the industry. Other businesses can only watch with
 				envy as you rake in all of the profits and sales.</p>
 				<p>Would you like to enter in your name to the high score chart? If so, then enter in a name below. If you want to update a score you got earlier,
 				then enter in the name you used originally, and then enter in your password to update your score. Otherwise, if the name you want has already been taken by
-				someone else than you must select a different name</p>
-				<p style = "font-size: 12px; font-weight: bold;">Note: your name must not contain spaces, be at least 3 characters long, and have at least one letter character in it. You must type in
+				somebody else, then you must select a different name</p>
+				<p style = "font-size: 12px; font-weight: bold;">Note: your name must not contain spaces, and must have at least one letter character in it. You must type in
 				a password which is at least 6 characters in length to go with your name. This password is the only way to update a score you set earlier, so be sure to write this down!</p><br>
 				
 				<form>
